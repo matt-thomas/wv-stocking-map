@@ -1,22 +1,23 @@
 # Ignore the virtual environment directory
 env/
-venv/
 
-# Django project files in the 'django' subdirectory
-django/__pycache__/
-django/*.pyc
-django/db.sqlite3
-django/*.sqlite3
-django/media/
-django/*.log
+# Python byte-compiled files
+*.pyc
+__pycache__/
 
-# Ignore .env file containing environment variables
-django/.env
+# Django-specific files
+db.sqlite3
+*.sqlite3
+/media/
+*.log
+
+# Ignore environment variables file
+.env
 
 # Ignore IDE/editor configuration files
 .vscode/
 .idea/
 
-# Ignore macOS system files
+# macOS system files
 .DS_Store
 
